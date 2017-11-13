@@ -318,7 +318,7 @@ allAwesome = [awesome, also]
 3. `6 / 3` is good. `6 / length [1, 2, 3]` isn't because `length [1, 2, 3]` isn't `Fractional`
 4. `div 6 (length [1, 2, 3])` or `div 6 $ length [1, 2, 3]`
 5. `2 + 3 == 5` is of type `Bool`, returns `True` because `+` is higher precedence. 
-6. Same as 5.
+6. 
 ```Haskell
 -- given
 x = 5
